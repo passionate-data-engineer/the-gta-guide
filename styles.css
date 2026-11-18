@@ -69,3 +69,67 @@ a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(-
 @media(max-width:850px){.hero-content{padding-top:95px}.section{padding-top:90px;padding-bottom:90px}}
 @media(max-width:620px){.site-header{height:68px}.main-nav{box-shadow:0 18px 35px rgba(0,0,0,.3)}.hero{height:700px}.hero-content{padding-top:86px}.hero h1{font-size:clamp(82px,18vw,116px)}.section{padding-top:76px;padding-bottom:76px}.card-visual{height:205px}.world-copy{padding-top:65px}.closing:after{font-size:250px;top:-20%;right:-8%}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important;animation:none!important}}
+
+/* HOMEPAGE VISUAL REFRESH — original artwork + Vice City editorial palette */
+:root{--cyan:#65eee0;--pink:#ff4fa1;--ink:#080d16}
+.hero{height:min(790px,calc(100vh - 110px));min-height:690px;background:#0a1020}
+.hero-art{background:#18223b}
+.hero-art:after{background:linear-gradient(90deg,rgba(5,11,22,.88) 0%,rgba(5,11,22,.66) 34%,rgba(5,11,22,.12) 72%,rgba(5,11,22,.04) 100%),linear-gradient(0deg,rgba(5,11,22,.7),transparent 34%)}
+.hero-illustration{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 48%;display:block}
+.hero-content{padding-top:108px;max-width:760px;padding-left:7.5%}
+.hero .eyebrow{color:#ff9bc8;letter-spacing:.2em}
+.hero .eyebrow-line{background:var(--pink)}
+.hero h1{font-size:clamp(76px,9.2vw,132px);line-height:.82;letter-spacing:-.045em;max-width:740px;margin:30px 0 25px}
+.hero h1 em{color:var(--pink);text-shadow:0 0 32px rgba(255,79,161,.35)}
+.hero-lede{max-width:430px;font-size:14px;line-height:1.8;color:#e0e3ec}
+.button-primary{background:linear-gradient(110deg,#ff4fa1,#f078a7);color:#fff;box-shadow:0 9px 32px rgba(255,79,161,.22)}
+.button-primary span{color:#fff}
+.button-primary:hover{background:linear-gradient(110deg,#ff79b7,#ff9bc8)}
+.hero-actions{gap:30px}
+.hero-shortcuts{display:flex;gap:26px;align-items:center;margin-top:34px;flex-wrap:wrap}
+.hero-shortcuts a{display:flex;flex-direction:column;gap:7px;align-items:center;color:#dce4eb;font-size:9px;font-weight:700;letter-spacing:.1em;transition:color .2s,transform .2s}
+.hero-shortcuts a:hover{color:var(--cyan);transform:translateY(-3px)}
+.hero-shortcuts a span{font-size:23px;color:var(--cyan);line-height:1}
+.hero-side-note{color:#e7d7e7}
+.hero-bottom{color:#d3d7e0}
+.news-ticker{height:54px;padding:0 7%;display:flex;align-items:center;gap:22px;background:linear-gradient(100deg,#ff4fa1,#df579a 24%,#101a2b 24%);color:#f7f4f8;text-decoration:none}
+.ticker-label{font:800 12px var(--display);letter-spacing:.13em;white-space:nowrap}
+.ticker-headline{font-size:11px;color:#e5e8ef;flex:1}
+.ticker-link{font-size:9px;font-weight:800;letter-spacing:.12em;color:var(--cyan);white-space:nowrap}
+.intro{background:linear-gradient(180deg,#090f1a,#0a111b)}
+.guide-card{border-color:rgba(124,218,232,.13);background:linear-gradient(150deg,#18233a,#0d1724)}
+.card-visual{filter:saturate(1.12)}
+.visual-cheats{background:radial-gradient(circle at 65% 35%,#ff83b3,#8d4c79 42%,#263b55 100%)}
+.visual-missions{background:linear-gradient(130deg,#182c46,#6d5b86 55%,#ed8d9d)}
+.visual-people{background:radial-gradient(circle at 50% 40%,#d46b91,#583c68 50%,#1a293f)}
+.visual-vehicles{background:linear-gradient(145deg,#233e55,#b45e86 60%,#e1a29b)}
+.visual-map{background:linear-gradient(140deg,#183b4c,#4e8d91 55%,#d2a6a0)}
+.visual-news{background:linear-gradient(145deg,#2b314d,#9b5f88 60%,#f09b9d)}
+.world-section{background:linear-gradient(110deg,#101a2c,#0b121e)}
+.world-image{background:linear-gradient(145deg,#293c66,#c16e92 58%,#f0ad9a)}
+.world-orb{background:linear-gradient(140deg,#ffd0b5,#e75d9b)}
+.intel-feature{border-color:rgba(255,79,161,.24)}
+.intel-art{background:linear-gradient(140deg,#293c66,#a65e8b 65%,#f0a18e)}
+.intel-art-sun{background:#ffb5ad}
+.live-label{color:#d7e3e8;border-color:rgba(101,238,224,.35)}
+.live-label i{background:var(--pink);box-shadow:0 0 12px var(--pink)}
+@media(max-width:850px){
+ .hero-content{padding-left:7%;padding-top:96px}
+ .hero-illustration{object-position:57% center}
+ .news-ticker{padding:0 5%;gap:14px}
+}
+@media(max-width:620px){
+ .hero{height:720px;min-height:0}
+ .hero-art:after{background:linear-gradient(90deg,rgba(5,11,22,.78),rgba(5,11,22,.32)),linear-gradient(0deg,rgba(5,11,22,.72),transparent 55%)}
+ .hero-illustration{object-position:62% center;opacity:.82}
+ .hero-content{padding:80px 7% 0}
+ .hero h1{font-size:clamp(68px,16vw,100px);margin:28px 0 22px}
+ .hero-lede{max-width:330px;font-size:12px}
+ .hero-shortcuts{gap:17px;margin-top:26px}
+ .hero-shortcuts a{font-size:8px}
+ .hero-shortcuts a span{font-size:20px}
+ .news-ticker{height:auto;min-height:58px;padding:10px 6%;display:grid;grid-template-columns:auto 1fr;gap:4px 12px}
+ .ticker-label{grid-row:1/3;font-size:11px}
+ .ticker-headline{font-size:9px}
+ .ticker-link{font-size:8px}
+}
