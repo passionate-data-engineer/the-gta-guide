@@ -11,11 +11,6 @@
       toggle.setAttribute('aria-expanded', 'false');
     }));
   }
-  const theme = document.querySelector('.theme-toggle');
-  if (theme) theme.addEventListener('click', () => {
-    document.body.classList.toggle('light-mode');
-    theme.setAttribute('aria-pressed', String(document.body.classList.contains('light-mode')));
-  });
   const search = document.querySelector('.header-search input');
   if (search) search.addEventListener('keydown', event => {
     if (event.key === 'Enter') {
