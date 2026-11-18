@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+<title id="title">Vice City at sunset — original artwork for The GTA Guide</title><desc id="desc">A stylised neon coastal city skyline, palms, sunset, helicopter and sports car.</desc>
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#34234c"/><stop offset=".42" stop-color="#e36e91"/><stop offset=".72" stop-color="#f5a27f"/><stop offset="1" stop-color="#172c3b"/></linearGradient>
+ <linearGradient id="water" x2="0" y2="1"><stop stop-color="#db7d88"/><stop offset="1" stop-color="#102a3a"/></linearGradient>
+ <linearGradient id="car" x2="0" y2="1"><stop stop-color="#ff6b9c"/><stop offset="1" stop-color="#5c2b59"/></linearGradient>
+ <linearGradient id="shade" x2="1"><stop stop-color="#07111d" stop-opacity=".94"/><stop offset=".42" stop-color="#07111d" stop-opacity=".48"/><stop offset="1" stop-color="#07111d" stop-opacity=".06"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="15"/></filter>
+</defs>
+<rect width="1600" height="900" fill="url(#sky)"/>
+<circle cx="1110" cy="300" r="190" fill="#ffb0a2" opacity=".5" filter="url(#glow)"/><circle cx="1110" cy="300" r="150" fill="#ffb5a3" opacity=".82"/>
+<path d="M0 520L60 520V390h75v130h35V340h90v180h45V420h70v100h55V300h92v220h42V390h70v130h54V350h84v170h45V410h70v110h45V330h85v190h40V395h75v125h55V360h80v160h50V420h85v100h55V310h80v210h45V400h70v120h40V350h90v170h40V420h65v100h50V380h80v140h70v380H0Z" fill="#1c2b43" opacity=".88"/>
+<g fill="#ffb5a0" opacity=".45"><path d="M80 410h10v20H80zm28 0h10v20h-10zm170-45h12v20h-12zm20 0h12v20h-12zm225-28h12v20h-12zm28 0h12v20h-12zm280 10h12v20h-12zm28 0h12v20h-12zm260-15h12v20h-12zm28 0h12v20h-12z"/></g>
+<path d="M0 545Q350 500 680 550T1600 535V900H0Z" fill="url(#water)"/>
+<g stroke="#ffb4a4" opacity=".36" stroke-width="3"><path d="M0 600h160m80 25h240m120-38h180m80 60h210m120-42h210m-1140 110h180m130-18h250m130 28h200m90-20h200"/></g>
+<path d="M0 565h1600" stroke="#f6b3a0" stroke-width="5" opacity=".4"/>
+<g fill="#07131d"><path d="M100 580Q140 420 160 210q-2-25 15-30 15 8 6 31Q160 440 132 590Z"/><path d="M168 190q-90-110-160-72 90-5 160 72m-5-4q-45-135 8-170-23 82-8 170m5 2q52-140 126-115-90 24-126 115m-8-2q-130-35-140 30 67-44 140-30m8-4q105-84 155-35-85-35-155 35" stroke="#08151c" stroke-width="17" fill="none" stroke-linecap="round"/></g>
+<g fill="#091722"><path d="M1390 590q30-210 8-395-3-25 15-30 16 8 7 34-6 205 12 391Z"/><path d="M1405 200q-110-110-175-60 93-22 175 60m-4-5q-45-130 8-175-24 80-8 175m5 0q60-130 135-95-95 8-135 95m-6-2q-125-20-145 48 73-54 145-48m10-2q100-100 155-58-85-20-155 58" stroke="#091722" stroke-width="16" fill="none" stroke-linecap="round"/></g>
+<path d="M0 0h1600v900H0Z" fill="url(#shade)"/>
+<g opacity=".92" transform="translate(1140 180)"><path d="M0 28q44-15 82 0l42-5-28 12H35L0 42l-22-5Z" fill="#101a2a"/><path d="M53 26l18-28 7 1-8 28m-33 2L0 12l-5 3 27 19" fill="#101a2a"/><path d="M75 27l42-18 4 4-38 20" fill="#101a2a"/><circle cx="44" cy="36" r="3" fill="#ff6f9c"/></g>
+<g transform="translate(700 610)"><path d="M0 120l42-68q18-28 70-35l155-4q52 1 82 38l45 40 35 15-8 65H18Z" fill="url(#car)" stroke="#ff9ab2" stroke-width="4"/><path d="M105 52q18-27 53-29l102-3q38 0 63 32l24 35H80Z" fill="#172638" stroke="#ffb2c3" stroke-width="4"/><path d="M178 22l-8 65m78-66 20 66" stroke="#ff9ab2" stroke-width="4"/><path d="M16 117h395" stroke="#ff719d" stroke-width="8"/><path d="M27 125h38v24H22m340-24h38v24h-43" fill="#fff1d7"/><circle cx="100" cy="177" r="38" fill="#080f19" stroke="#9da8b8" stroke-width="8"/><circle cx="100" cy="177" r="14" fill="#f6b0b0"/><circle cx="333" cy="177" r="38" fill="#080f19" stroke="#9da8b8" stroke-width="8"/><circle cx="333" cy="177" r="14" fill="#f6b0b0"/></g>
+<text x="1120" y="520" fill="none" stroke="#ff83bd" stroke-width="5" opacity=".75" font-family="Arial,sans-serif" font-size="190" font-weight="900">VI</text>
+<rect width="1600" height="900" fill="none" stroke="#ff9fba" stroke-opacity=".18" stroke-width="3"/>
+</svg>
